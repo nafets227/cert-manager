@@ -260,7 +260,7 @@ The container registry to pull the manager image from.
 #### **image.repository** ~ `string`
 > Default value:
 > ```yaml
-> quay.io/jetstack/cert-manager-controller
+> ghcr.io/nafets227/cert-manager-controller
 > ```
 
 The container image for the cert-manager controller.
@@ -1193,7 +1193,7 @@ The container registry to pull the webhook image from.
 #### **webhook.image.repository** ~ `string`
 > Default value:
 > ```yaml
-> quay.io/jetstack/cert-manager-webhook
+> ghcr.io/nafets227/cert-manager-webhook
 > ```
 
 The container image for the cert-manager webhook
@@ -1599,7 +1599,7 @@ The container registry to pull the cainjector image from.
 #### **cainjector.image.repository** ~ `string`
 > Default value:
 > ```yaml
-> quay.io/jetstack/cert-manager-cainjector
+> ghcr.io/nafets227/cert-manager-cainjector
 > ```
 
 The container image for the cert-manager cainjector
@@ -1680,7 +1680,7 @@ The container registry to pull the acmesolver image from.
 #### **acmesolver.image.repository** ~ `string`
 > Default value:
 > ```yaml
-> quay.io/jetstack/cert-manager-acmesolver
+> ghcr.io/nafets227/cert-manager-acmesolver
 > ```
 
 The container image for the cert-manager acmesolver.
@@ -1863,7 +1863,7 @@ The container registry to pull the startupapicheck image from.
 #### **startupapicheck.image.repository** ~ `string`
 > Default value:
 > ```yaml
-> quay.io/jetstack/cert-manager-startupapicheck
+> ghcr.io/nafets227/cert-manager-startupapicheck
 > ```
 
 The container image for the cert-manager startupapicheck.
