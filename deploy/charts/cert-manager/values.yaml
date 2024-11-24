@@ -144,7 +144,7 @@ image:
 
   # The container image for the cert-manager controller.
   # +docs:property
-  repository: quay.io/jetstack/cert-manager-controller
+  repository: ghcr.io/nafets227/cert-manager-controller
 
   # Override the image tag to deploy by setting this variable.
   # If no value is set, the chart's appVersion is used.
@@ -874,7 +874,7 @@ webhook:
 
     # The container image for the cert-manager webhook
     # +docs:property
-    repository: quay.io/jetstack/cert-manager-webhook
+    repository: ghcr.io/nafets227/cert-manager-webhook
 
     # Override the image tag to deploy by setting this variable.
     # If no value is set, the chart's appVersion will be used.
@@ -1183,7 +1183,7 @@ cainjector:
 
     # The container image for the cert-manager cainjector
     # +docs:property
-    repository: quay.io/jetstack/cert-manager-cainjector
+    repository: ghcr.io/nafets227/cert-manager-cainjector
 
     # Override the image tag to deploy by setting this variable.
     # If no value is set, the chart's appVersion will be used.
@@ -1242,7 +1242,7 @@ acmesolver:
 
     # The container image for the cert-manager acmesolver.
     # +docs:property
-    repository: quay.io/jetstack/cert-manager-acmesolver
+    repository: ghcr.io/nafets227/cert-manager-acmesolver
 
     # Override the image tag to deploy by setting this variable.
     # If no value is set, the chart's appVersion is used.
@@ -1375,7 +1375,7 @@ startupapicheck:
 
     # The container image for the cert-manager startupapicheck.
     # +docs:property
-    repository: quay.io/jetstack/cert-manager-startupapicheck
+    repository: ghcr.io/nafets227/cert-manager-startupapicheck
 
     # Override the image tag to deploy by setting this variable.
     # If no value is set, the chart's appVersion is used.
