@@ -60,3 +60,4 @@ golangci_lint_config := .golangci.yaml
 repository_base_no_dependabot := 1
 
 GINKGO_VERSION ?= $(shell awk '/ginkgo\/v2/ {print $$2}' test/e2e/go.mod)
+HELMCHARTVERSION := $(shell echo $(VERSION) | sed s_^v__)
