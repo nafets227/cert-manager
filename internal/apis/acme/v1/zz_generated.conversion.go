@@ -1558,6 +1558,7 @@ func Convert_acme_ChallengeSpec_To_v1_ChallengeSpec(in *acme.ChallengeSpec, out 
 func autoConvert_v1_ChallengeStatus_To_acme_ChallengeStatus(in *v1.ChallengeStatus, out *acme.ChallengeStatus, s conversion.Scope) error {
 	out.Processing = in.Processing
 	out.Presented = in.Presented
+	out.ChallengeAccepted = in.ChallengeAccepted
 	out.Reason = in.Reason
 	out.State = acme.State(in.State)
 	return nil
@@ -1571,6 +1572,7 @@ func Convert_v1_ChallengeStatus_To_acme_ChallengeStatus(in *v1.ChallengeStatus, 
 func autoConvert_acme_ChallengeStatus_To_v1_ChallengeStatus(in *acme.ChallengeStatus, out *v1.ChallengeStatus, s conversion.Scope) error {
 	out.Processing = in.Processing
 	out.Presented = in.Presented
+	out.ChallengeAccepted = in.ChallengeAccepted
 	out.Reason = in.Reason
 	out.State = v1.State(in.State)
 	return nil

@@ -17,9 +17,8 @@ limitations under the License.
 package v1
 
 import (
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-
 	cmmeta "github.com/cert-manager/cert-manager/pkg/apis/meta/v1"
+	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 
 // +genclient
@@ -133,6 +132,10 @@ type ChallengeStatus struct {
 	// configured).
 	// +optional
 	Presented bool `json:"presented"`
+
+	// ChallengeAccepted will be set to true after notifying the ACME server that the
+	// challenge is presented.
+	ChallengeAccepted bool `json:"accepted"`
 
 	// Contains human readable information on why the Challenge is in the
 	// current state.
